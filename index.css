@@ -1,0 +1,439 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar a:hover{
+  color: red!important;
+}
+.navbar{
+  width: 100%;
+  height: 20vh;
+ 
+  background-image: url();
+  
+
+}
+.navbar-img{
+	height: 105px;
+	width: 45vh;
+}
+
+#header {
+width: 100%;
+height:80vh;
+margin-top:70px;
+
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight:700;
+  color:  black;
+}
+
+#header .brand-name{
+  color: red;
+}
+#header h2{
+	
+  color: red;
+  font-size: 24px;
+}
+#header h3{
+  color: red;
+  font-size: 24px;
+}
+
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: black;
+  border: 3px solid black;
+  text-decoration: none;
+
+}
+#header-img{
+  text-align: right;
+ 
+}
+
+#about-img{
+  text-align: left;
+  height:5px;
+  width: 5px;
+ 
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+/* chicken */
+#chicken-container1{
+  margin: 50%;
+  padding: 20%;
+
+}
+#chicken-container2{
+  margin: 50px;
+  height: 50px;
+
+}
+
+/*Buff*/
+#buff-card{
+  height:500px;
+  width: 500px;}
+
+#buff1st{
+  height:500px;
+  width: 500px;
+
+}
+
+/* fotter */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background:rgb(196, 7, 7);
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background:rgb(197, 8, 8);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  rgb(219, 226, 226);
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  rgb(207, 198, 198);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #eaf4fa;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  rgb(240, 248, 248);
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #e9eef3;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #e8eef1;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* service slider*/
+.carousel slide{
+height: 400vh;
+width: 00vh;
+}
+
+/*contact form*/
+.contact{
+	width:40%;
+	margin: auto;
+	overflow: hidden;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+
+  
+  /* Style the submit button */
+  input[type=submit] {
+	background-color: #f50606;
+	color: white;
+	padding: 20px 20px;
+	border: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	padding: 12px 12px 12px 0;
+  }
+  
+  /* Style the container */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 16px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 36px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+	  width: 100%;
+	  margin-top: 10px;
+	}
+  }
+/*services*/
+
+.container-services{
+background-image: linear-gradient(rgb (0,0,0,0.6),rgb(233, 41, 41)),url(images/bg.PNG);
+background-size: auto;
+background-position: center;
+color:black;
+}
+
+.services{
+	margin: 90px auto;
+	text-align: center;
+}
+
+.services h1{
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	content: "";
+	background-color: red;
+	display: block;
+	width: 250px;
+	height: 5px;
+	text-align: center;
+	margin: 30px auto;
+	
+}
+.icon{
+	font-style: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border:1px solid rgb(241, 20, 20);
+	border-radius: 50%;
+
+}
+.col-md-3:hover{
+	box-shadow: black;
+	cursor: pointer;
+}
+
+
